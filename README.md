@@ -22,11 +22,12 @@
 ## 运行方式
 
 ```bash
-npm run dev
+cd src-tauri
+cargo run
 ```
 
 ```bash
-npm run build
+cargo build --release
 ```
 
 ## 说明
