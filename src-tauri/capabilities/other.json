@@ -1,0 +1,15 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "other",
+  "description": "外部链接权限，使得iframe内的连接可以打开",
+  "windows": [
+    "*"
+  ],
+  "remote": {
+    "urls": [
+      "https://*",
+      "http://*"
+    ]
+  },
+  "permissions": []
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the jdy window",
+  "windows": [
+    "jdy*"
+  ],
+  "remote": {
+    "urls": [
+      "https://*.jiandaoyun.com/"
+    ]
+  },
+  "permissions": [
+    "core:default",
+    "core:event:allow-listen",
+    "core:event:default"
+  ]
+}
